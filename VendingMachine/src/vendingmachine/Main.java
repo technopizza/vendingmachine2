@@ -25,7 +25,8 @@ while(!quit){
     System.out.println("Quit? Y/N");
     String response = s.next();
     if(response.equalsIgnoreCase("y")){
-        quit = true;
+        break;
+        
     }
     System.out.println(v);
     v.pickCandy();
